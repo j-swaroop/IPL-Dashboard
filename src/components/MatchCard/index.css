@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.match-card-bg-container{
+    background-color: #0f172a;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    width: 32%;
+}   
+
+@media (max-width: 576px){
+    .match-card-bg-container{
+        width: 48%;
+    }
+}
+.match-card-img{
+    width: 50%;
+    
+}
+.match-card-competeting-team{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Bree Serif";
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.match-card-match-status{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Bree Serif";
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.match-card-result{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Bree Serif";
+    text-align: center;
+    margin-top: 20px;
+    
+}
+@media (max-width: 576px){
+    .match-card-competeting-team{
+        font-size: 18px;
+    }
+    .match-card-result{
+        font-size: 16px;
+    }
+}
+
+.won-text-color{
+    color:  #18ed66;
+}
+.lost-text-color{
+    color:  #e31a1a;
+}
